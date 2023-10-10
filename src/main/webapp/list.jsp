@@ -48,8 +48,8 @@
             <td>${staffs.get(i).phone}</td>
             <td>${staffs.get(i).salary}</td>
             <td>${departments.get(i).name}</td>
-            <td><a class="btn btn-success" href="/staffs?act=edit&id=${s.id} ">Edit</a></td>
-            <td><a class="btn btn-success" href="/staffs?act=delete&id=${s.id} ">Delete</a></td>
+            <td><a class="btn btn-success" href="/staffs?act=edit&id=${staffs.get(i).id} ">Edit</a></td>
+            <td><a class="btn btn-success" href="/staffs?act=delete&id=${staffs.get(i).id} ">Delete</a></td>
         </tr>
     </c:forEach>
     </tbody>
